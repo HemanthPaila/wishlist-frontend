@@ -23,7 +23,6 @@ function App() {
          
           <Routes> {/*Defining routes for different pages*/}
             <Route path="/" element={<Shop />} /> {/*Route for the Shop page*/}
-            <Route path="/contact" element={<Contact />} /> {/*Route for the Contact page*/}
             <Route path="/cart" element={<Cart />} /> {/*Route for the Cart page*/}
           </Routes>
 
